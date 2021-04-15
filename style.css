@@ -1,4 +1,4 @@
-*{ /*reset gets rid of spacing of heading at the top of screen. by default, h1s and ps have margins and paddings */
+*{ 
     margin:0;
     padding:0;
 }
@@ -16,7 +16,7 @@ body {
     background-size: cover; 
     background-position: center;
     height: 100vh;
-    display: flex;/*aligns items horizontally as flex items*/
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
