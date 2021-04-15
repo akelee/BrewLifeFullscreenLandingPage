@@ -1,0 +1,92 @@
+*{ /*reset gets rid of spacing of heading at the top of screen. by default, h1s and ps have margins and paddings */
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color:rgba(100,100,100, 1);
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url('../img/coffee3.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;/*aligns items horizontally as flex items*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size:20px;
+    text-align: center;
+}
+
+#showcase .btn{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgba(100,100,100, 1);
+    border:rgba(100,100,100, 0.4 1px solid);
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .btn:hover{
+    background:rgba(100,100,100, 0.4);
+    color: #f9f9f9;
+}
+
+#showcase h1, .text-1, a {
+    background: rgba(253, 252, 252, 0.6);
+    border-radius: 2px;   
+}
+
+#section-a {
+    padding:20px;
+    background: rgba(100,100,100, 0.4);
+    color:#fff;
+    text-align: center;
+
+}
+
+#section-b {
+    padding:20px;
+    background: #f9f9f9;
+    text-align: center;
+
+}
+
+#section-b .tex-2{
+    background: none;
+}
+
+#section-c{
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background:rgba(100,100,100, 0.4);;
+    color: #f9f9f9;
+}
+
+#section-c .box-2 {
+    background:#f9f9f9;
+    color: #;
+}
