@@ -1,3 +1,3 @@
 # BrewLife fullscreenLandingPage
 
-Simple landing page made with HTML and CSS.
+Simple responsive landing page made with HTML and CSS.
